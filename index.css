@@ -120,6 +120,8 @@ nav a {
 }
 .main-side2 {
   margin: auto;
+  border-radius: 50%;
+  border: none;
 }
 
 .main-side1 {
@@ -149,6 +151,7 @@ nav a {
 .main-side2 img {
   outline: 30px solid #c75c00;
   border-radius: 50%;
+  border: none;
 }
 
 /* TOP SELLING PRODUCTS */
@@ -681,12 +684,16 @@ input.radio-btn[type="radio"] {
   }
 
   .main-side2 {
+    border-radius: 50%;
+    border: none;
     order: 1;
   }
   .main-side2 img {
     width: 200px;
     height: 200px;
+    border: none;
     outline: 15px solid #c75c00;
+    border-radius: 50%;
   }
   .btn button {
     margin-top: 25px;
@@ -705,15 +712,21 @@ input.radio-btn[type="radio"] {
     margin-top: -20px;
   }
   .watch {
-    width: 150px;
+    width: 130px;
     height: 150px;
+  }
+  .watch-images {
+    margin: auto;
   }
   .watch img {
     width: 100px;
     height: 150px;
   }
   .watch-details p {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  .watch-details h3 {
+    font-size: 12px;
   }
 
   /* CART RESPONSIVE STYLING */
