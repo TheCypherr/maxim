@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Mini Online Store</title>
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="mainbody-top">
+        <div class="top-text">
+          <div class="select">
+            <select id="selectLanguage">
+              <option value="en">English US</option>
+              <option value="es">Spanish</option>
+              <option value="fr">French</option>
+              <option value="ar">Arabic</option>
+            </select>
+          </div>
+
+          <div class="select">
+            <select id="selectLanguage">
+              <option value="en">USD</option>
+              <option value="es">EURO</option>
+              <option value="fr">EURO</option>
+              <option value="ar">DIRHAM</option>
+            </select>
+          </div>
+
+          <div class="download">
+            <p>Download app</p>
+            <img src="images/android-icon.webp" width="17px" height="17px" />
+            <img src="images/apple_logo.png" width="22px" height="22px" />
+          </div>
+        </div>
+      </div>
+      <div class="underline">
+        <!-- content here -->
+      </div>
+
+      <header>
+        <div class="top-header">
+          <div class="menu" id="menuToggle" onclick="toggleMenu()">
+            <img
+              src="images/menu-removebg-preview.webp"
+              width="30px"
+              height="20px"
+              onclick="toggleMenu()"
+            />
+          </div>
+          <div class="logo-img">
+            <img src="images/web-logoo.png" />
+          </div>
+
+          <nav id="menuSection" class="active">
+            <li>
+              <a href="index.html" id="home" onclick="exitMenu()">Home</a>
+            </li>
+            <li><a href="#" id="category" onclick="exitMenu()">Category</a></li>
+            <li>
+              <a href="#" id="hot-deals" onclick="exitMenu()">Hot Deals</a>
+            </li>
+            <li>
+              <a href="#" id="arrivals" onclick="exitMenu()">New Arrivals</a>
+            </li>
+          </nav>
+
+          <div class="header-img">
+            <a href="cart.html">
+              <img
+                src="images/cart-removebg-preview.webp"
+                width="30px"
+                height="30px"
+            /></a>
+            <img
+              src="images/bell-removebg-preview.webp"
+              width="30px"
+              height="30px"
+            />
+            <img
+              src="images/user-removebg-preview.webp"
+              width="30px"
+              height="30px"
+            />
+          </div>
+        </div>
+
+        <div class="search">
+          <input type="text" placeholder="Search" />
+        </div>
+      </header>
+      <div class="underline1">
+        <!-- content here -->
+      </div>
+
+      <div class="main-body0">
+        <div class="main-side1">
+          <h1>ALL NEW, PLUM AND PEACHY</h1>
+          <p>You can never have too many bags when it comes to quality.</p>
+          <p class="p-hide">Make your collection look like a color palette.</p>
+          <div class="btn">
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="main-side2">
+          <img src="images/top-image.webp" width="300px" height="300px" />
+        </div>
+      </div>
+
+      <!-- TOP SELLING PRODUCTS -->
+      <div class="main-body1">
+        <h2>Top Selling Products</h2>
+        <div class="small-top">
+          <h1>Watches</h1>
+          <h3>View more...</h3>
+        </div>
+
+        <div class="watch-images">
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/watch1.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/watch3.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/watch2.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-body2">
+        <div class="small-top">
+          <h1>Bags</h1>
+          <h3>View more...</h3>
+        </div>
+
+        <div class="watch-images">
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/bag5.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/bag6.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+
+          <div class="flex-display">
+            <div class="watch">
+              <img src="images/bag3.webp" width="250px" height="350px" />
+            </div>
+            <div class="watch-details">
+              <h3>Victorinox Swiss Army</h3>
+              <p>Brown-Silver Steel, Green Hands</p>
+              <p class="bold">$23,400.00USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-new">
+      <div class="footer-logo">
+        <img src="images/web-logo.webp" />
+      </div>
+      <div class="info-div">
+        <div class="contact">
+          <h1>Contact</h1>
+          <div class="small">
+            <img
+              src="images/message.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>@Maximluxury</p>
+          </div>
+          <div class="small">
+            <img
+              src="images/phone-icon.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>+234 813 383 8283</p>
+          </div>
+          <div class="small">
+            <img
+              src="images/location.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>Blue House, Lekki Lagos</p>
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <h1>Quick Links</h1>
+          <p>About Us</p>
+          <p>FAQ</p>
+          <p>Blog</p>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="contact">
+          <h1>Follow Us</h1>
+          <div class="small">
+            <img
+              src="images/facebook.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>Facebook</p>
+          </div>
+          <div class="small">
+            <img
+              src="images/twitter.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>Twitter</p>
+          </div>
+          <div class="small">
+            <img
+              src="images/instagram.webp"
+              class="message"
+              width="20px"
+              height="20px"
+            />
+            <p>Instagram</p>
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <h1>Resources</h1>
+          <p>Blog</p>
+          <p>News Update</p>
+        </div>
+
+        <div class="quick-links">
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Cookies Policy</p>
+          <p>Compliance</p>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <h3>Subscribe to our Newsletter</h3>
+        <div class="flex-footer">
+          <div class="subscribe-input">
+            <input type="text" placeholder="Email Address" />
+            <button class="btn0">Subscribe</button>
+          </div>
+          <div class="copyright">
+            <p>© 2024 Copyright Maxim</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-new2">
+      <div class="footer-logo">
+        <img src="images/web-logo.webp" />
+      </div>
+      <div class="footer-notes">
+        <div class="top">
+          <a href="#"><li>Chat with us</li></a>
+          <a href="#"><li>Help Center</li></a>
+          <a href="#"><li>Terms & Conditions</li></a>
+        </div>
+        <div class="top">
+          <a href="#"><li>Privacy Notice</li></a>
+          <a href="#"><li>Cookie Notice</li></a>
+          <a href="#"><li>Become a seller</li></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
